@@ -13,10 +13,7 @@ div div ul{
 	float: left;
 	padding: 25px 25px 25px 25px;
 }
-div {
-	opacity: 0.67;
-    filter: alpha(opacity=40);
-}
+
 h1 {
 	text-align: center;
 	text-transform: uppercase;
@@ -38,9 +35,9 @@ p {
 	font-size: 15px;
 	margin: 25px;
 	line-height: 120%;
-    margin-left: 50px;
-    margin-bottom: 270px;
-    margin-top: 50px;
+    	margin-left: 50px;
+    	margin-bottom: 270px;
+    	margin-top: 50px;
     
 }
 a:link, a:visited {
@@ -48,8 +45,8 @@ a:link, a:visited {
     width: 8em;
     height: 1.5em;
     font-weight: bold;
-    color: #FFFFFF;
-    background-color: silver;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, .6);
     text-align: center;
     padding: .25em;
     text-decoration: none;
@@ -66,8 +63,7 @@ a:hover, a:active {
 	margin: 5% 5% 0% 5%;
 	background-color: #FFFFFF;
 	padding: .3em .5em .3em .5em;
-	opacity: 0.67;
-    filter: alpha(opacity=40);
+	background: rgba(255, 255, 255, .6)
 }
 body {
 	background-size: cover;
