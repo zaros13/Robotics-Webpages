@@ -1,0 +1,89 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+	float:left;
+}
+
+div div ul {
+	float: left;
+	margin-left: 500px;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 160%;
+	font-family: Helvetica Neue Thin, Optima;
+}
+
+h2 {
+	text-transform: underline;
+	font-size: 100%;
+	font-family: Helvetica Neue Thin, Optima;
+	padding: .5em 0em 0em .8em;
+}
+
+h3 {
+	font-size: 90%;
+	padding: 0px 0px 0px 40px;
+}
+p {
+	font-size: 15px;
+	margin: 25px;
+	line-height: 120%;
+    margin-left: 50px;
+   	margin-top: 50px;
+    
+}
+a:link, a:visited {
+    display: block;
+    width: 8em;
+    height: 1.5em;
+    font-weight: bold;
+    color: rgba(90, 90, 90, 1);
+    background-color: rgba(255, 255, 255, .78);
+    text-align: center;
+    padding: .25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 115%;
+}
+
+
+a:hover, a:active {
+    background-color: black;
+}
+
+#body {
+	margin: 0% 5% 0% 0%;
+	background-color: #FFFFFF;
+	background: rgba(255, 255, 255, .78)
+}
+
+body {
+	background-size: cover;
+	background-image: url("Tiger.jpg");
+	background-attachment: fixed;
+
+}
+#navbar {
+	position: fixed;
+	left: 50%;
+	margin-left: -17em;
+	top: .5em;
+}
+
+#copyright {
+	color: #FFFFFF;
+	font-size: .65em;
+}
+
+#ip {
+	margin-left:80%;
+}
