@@ -1,0 +1,148 @@
+
+        /*Navigation styling */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+div div ul {
+    padding: 25px;
+}
+
+#navbar a:link, #navbar a:visited {
+    display: block;
+    width: 11.5em;
+    height: 1.5em;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: silver;
+    text-align: center;
+    padding: .25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+#navbar li a:hover, #navbar li a:active {
+    background-color: black;
+}
+
+#navbar {
+    position: fixed;
+	left: 43%;
+	margin-left: -25em;
+	top: .5em;
+    z-index: 1;
+}
+
+/*Drop down menu styling*/
+
+#navbar li ul {
+    display: none;
+}
+
+#navbar li:hover ul {
+    display: inline;
+    position: fixed;
+}
+
+#navbar li:hover li {
+    float: none;
+}
+
+/*End drop down styling*/
+
+/*End Navigation styling */
+
+/*Element Wrapper styling*/
+
+#sliderFrame {
+    margin-top: 7%;
+    position: relative;
+}
+
+#bodyText {
+    margin-top: 10%;
+    position: relative;
+    background-color: rgba(192,192,192,.5);
+    padding: .05em .9em .05em .9em;
+}
+
+#links {
+    margin-top:8%;
+    position: relative;
+    background-color: rgba(192,192,192,.5);
+    padding: .05em .9em .05em .9em;
+    margin-bottom: 10%;
+}
+
+#copyright {
+	color: #FFFFFF;
+	font-size: .65em;
+}
+
+#ip {
+	margin-left:80%;
+}
+
+/* End Element Wrapper styling*/
+
+/*Background styling*/
+
+body {
+	background-size: cover;
+	background-image: url("tigerbackground.jpg");
+}
+
+#body {
+	margin: 7% 10% 0% 10%;
+	background-color: rgba(192,192,192,.5);
+	padding: .3em .4em .3em .4em;
+    overflow: auto;
+}
+
+
+#links ul{
+    margin-top: 4%;
+    position: relative;
+    background-color: rgba(192,192,192,.5);
+    padding: .05em .9em .05em .9em;
+    overflow: auto;
+}
+
+#goals {
+    margin-top: 4%;
+    position: relative;
+    background-color: rgba(192,192,192,.5);
+    padding: .05em .9em .05em .9em;
+}
+
+img:hover{
+	-webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.15);
+}
+
+#links img {
+    -webkit-transition: all .55s ease; /* Safari and Chrome */
+    -moz-transition: all .55s ease; /* Firefox */
+    -o-transition: all .55s ease; /* IE 9 */
+    -ms-transition: all .55s ease; /* Opera */
+    transition: all .55s ease;
+    max-width: 100%;
+    /*position: absolute;*/
+    display: inline-block;
+    margin: 20px;
+}
+
+
